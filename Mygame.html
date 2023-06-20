@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="box">
+        <div class="form">
+            <div id="container1">
+            <h1> Hi Start ! </h1>
+                <label id="userPlayer1">Player 1 :</label>
+                <input type="text" id="player1" style="width: 200px;" placeholder="Player 1 type your username" /><br><br>
+                <span>Choix de player 1 : </span> <br><br>
+                <div class="choix"> 
+                        X :<input type="radio" value="X" id="choix1" name="choixe" checked="true">
+                        O :<input type="radio" value="O" id="choix2" name="choixe">  <br><br>
+                </div>
+                <label id="userPlayer2">Player 2 :</label>
+                <input type="text" id="player2" style="width: 200px;" placeholder="Player 2 type your username" /><br><br>
+                Qui est jouer le premier ? : <br><br>
+                    <div class="choix"> 
+                                            Player 1 :<input type="radio" value="jouerPlayer1" id="jouerPlayer1" name="jouerPlayer" checked="true">
+                                            Player 2 :<input type="radio" value="jouerPlayer2" id="jouerPlayer2" name="jouerPlayer">
+                    </div><br><br>
+                <input type="button" class="Lancer" id="Lancer" value="Lancer Jeux"/><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <table class="opa">
+            <tr>
+                <td>
+                    <button  class="l1" id="p1" disabled > <img src="images/black.png" /></button>
+                </td>
+                <td>
+                    <button  class="l1" id="p2" disabled > <img src="images/black.png" /></button> 
+                </td>
+                <td>
+                    <button  class="l1" id="p3" disabled ><img src="images/black.png" /></button>           
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button  class="l2" id="p4"disabled ><img src="images/black.png" /></button>
+                </td>
+                <td>
+                    <button  class="l2" id="p5"disabled ><img src="images/black.png" /></button>
+                </td>
+                <td>
+                    <button  class="l2" id="p6" disabled ><img src="images/black.png" /></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button style="margin-left:7px;" class="l3" id="p7" disabled ><img src="images/black.png"/></button>
+                </td>
+                <td>
+                    <button style="margin-left:10px;"  class="l3" id="p8" disabled ><img src="images/black.png" /></button>
+                </td>
+                <td>
+                    <button  class="l3" id="p9" disabled ><img src="images/black.png"/></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="myModal" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1 id="Aficher"></h1>
+        </div>
+      
+      </div>
+    <script src="jquery-3.6.0.min.js" ></script>
+    <script src="Myscript.js"></script>
+    <script src="Myscript1.js"></script>
+</body>
+</html>
