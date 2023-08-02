@@ -21,3 +21,8 @@ This project was created in 2021 to demonstrate my JavaScript skills and my abil
 
 ## 🤝 Contributing
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## Contact 📧
+
+For any inquiries or feedback, please reach out to abdelghafourlahnida01@gmail.com.
+
